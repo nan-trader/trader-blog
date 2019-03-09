@@ -1,0 +1,55 @@
+baseurl = "/"
+title = "Nan Trader"
+languageCode = "zh-tw"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Nan Trader"
+  bio = "Nan是個熱愛程式交易的軟體工程師。對金融市場有者獨到的想法，喜歡靜靜地看趨勢與他的想法完美吻合。"
+  avatar = "img/avatar.jpg"
+
+[Params]
+  subtitle = "金融市場記事簿" # Subtitle of your site. Used in site header
+  description = "程式交易 \\ 量化投資 \\ 金融看法" # Site description. Used in meta description
+  copyright = "Nan" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = false # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  # post_meta = ["date", "categories", "translations"] # Order of post meta information. Use ["none"] to turn off completely.
+  postSections = ["posts"] # the section pages to show on home page and the "Recent articles" widget
+  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+  #dateformat = "2006-01-02" # change the format of dates
+  #mathjax = true # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#   facebook = "username"
+#   twitter = "username"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+#   github = "username"
+#   gitlab = "username"
+#   bitbucket = "username"
+#   email = "example@example.com"
+#   google_plus = "profileid"
