@@ -24,5 +24,4 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-     - {label: "Categories", name: "categories", widget: "list"}
-
+      - {label: "Categories", name: "categories", widget: "list"}
