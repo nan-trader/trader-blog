@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: nan-trader/trader-blog
   branch: master # Branch to update (optional; defaults to master)
 
 # Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
