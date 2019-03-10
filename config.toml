@@ -60,10 +60,10 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 # Default resample filter used for resizing. Default is Box,
 # a simple and fast averaging filter appropriate for downscaling.
 # See https://github.com/disintegration/imaging
-resampleFilter = "box"
+resampleFilter = "Lanczos"
 
 # Default JPEG quality setting. Default is 75.
-quality = 75
+quality = 80
 
 # Anchor used when cropping pictures.
 # Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
