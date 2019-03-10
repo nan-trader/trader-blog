@@ -3,7 +3,7 @@ title = "Nan Trader"
 languageCode = "zh-tw"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-disqusShortname = "" # Enable comments by entering your Disqus shortname
+disqusShortname = "nan-trader" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
