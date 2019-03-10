@@ -1,7 +1,8 @@
 baseurl = "/"
 assetDir = "static"
 title = "交易男子"
-languageCode = "zh-tw"
+languageCode = "zh-TW"
+defaultContentLanguage = "zh-tw"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "nan-trader" # Enable comments by entering your Disqus shortname
