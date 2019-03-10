@@ -1,4 +1,5 @@
 baseurl = "/"
+assetDir = "static"
 title = "交易男子"
 languageCode = "zh-tw"
 paginate = "10" # Number of posts per page
@@ -53,3 +54,18 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #   bitbucket = "username"
 #   email = "example@example.com"
 #   google_plus = "profileid"
+
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "box"
+
+# Default JPEG quality setting. Default is 75.
+quality = 75
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"

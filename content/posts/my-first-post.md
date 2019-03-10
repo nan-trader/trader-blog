@@ -2,7 +2,6 @@
 title: "My First"
 date: "2019-03-10T00:57:14+08:00"
 description: "First Post"
-thumbnail: "img/demo.jpg" # Optional, thumbnail
 lead: "Example lead - highlighted near the title"
 disable_comments: false # Optional, disable Disqus comments if true
 authorbox: true # Optional, enable authorbox for specific post
