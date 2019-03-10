@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Nan Trader"
+title = "交易男子"
 languageCode = "zh-tw"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -12,8 +12,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   avatar = "img/avatar.jpg"
 
 [Params]
-  subtitle = "金融市場記事簿" # Subtitle of your site. Used in site header
-  description = "程式交易 \\ 量化投資 \\ 金融看法" # Site description. Used in meta description
+  subtitle = "程式交易 \\ 量化投資 \\ 金融市場" # Subtitle of your site. Used in site header
+  description = "程式交易 \\ 量化投資 \\ 金融市場" # Site description. Used in meta description
   copyright = "Nan" # copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   twitter_cards = false # Enable Twitter Cards if true
